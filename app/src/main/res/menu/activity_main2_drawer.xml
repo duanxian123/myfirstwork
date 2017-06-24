@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_classmate"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="同学录" />
+        <item
+            android:id="@+id/nav_chakanchengji"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="查看成绩" />
+        <item
+            android:id="@+id/nav_kaoshianpai"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="考试安排" />
+        <item
+            android:id="@+id/nav_liuyan"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="留言社区" />
+        <item
+            android:id="@+id/nav_game"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="休闲地带" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_call"
+                android:icon="@drawable/ic_menu_share"
+                android:title="call" />
+
+
+        </menu>
+    </item>
+
+</menu>

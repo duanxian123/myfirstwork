@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/tx" />
+        >
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+
+        <EditText
+            android:id="@+id/edit_zh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:drawablePadding="10dp"
+            android:hint="请输入账号"
+            android:inputType="number"
+
+            android:padding="10dp" />
+        />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/edit_psw"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:drawablePadding="10dp"
+            android:hint="请输入密码"
+            android:inputType="textPassword"
+            android:maxLength="16"
+            android:padding="10dp" />
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/bt_denglu"
+        android:layout_width="match_parent"
+        android:layout_height="45dip"
+        android:layout_marginTop="20dip"
+        android:background="@drawable/bg_border1"
+        android:gravity="center"
+        android:text="登录" />
+
+    <Button
+        android:id="@+id/bt_jsdenglu"
+        android:layout_width="match_parent"
+        android:layout_height="45dip"
+        android:layout_marginTop="20dip"
+        android:background="@drawable/bg_border1"
+        android:gravity="center"
+        android:text="教师登录" />
+
+    <Button
+        android:id="@+id/bt_zhuce"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+        android:gravity="center"
+        android:text="还没帐号？赶紧注册一个吧"
+
+        android:textSize="16sp"
+        android:visibility="visible" />
+</LinearLayout>

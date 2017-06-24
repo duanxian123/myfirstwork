@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_studentinfo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+   <LinearLayout
+       android:layout_width="342dp"
+       android:layout_height="wrap_content"
+       android:orientation="vertical">
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:orientation="horizontal">
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:id="@+id/t1"
+             android:text=">"/>
+         <EditText
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:id="@+id/ed1"
+             />
+      </LinearLayout>
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:orientation="horizontal">
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:id="@+id/t2"
+             android:text=">"/>
+         <EditText
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:id="@+id/ed2"/>
+      </LinearLayout>
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:orientation="horizontal">
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:id="@+id/t3"
+             android:text=">"/>
+         <EditText
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:id="@+id/ed3"/>
+      </LinearLayout>
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:orientation="horizontal">
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:id="@+id/t4"
+             android:text=">"/>
+         <EditText
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:id="@+id/ed4"/>
+
+      </LinearLayout>
+      <Button
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:id="@+id/cx"
+          android:text="查询"
+          android:gravity="center"/>
+      <Button
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:id="@+id/bt_fw"
+          android:text="复位"/>
+   </LinearLayout>
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal">
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:gravity="center"
+
+          android:textColor="#f0f"
+          android:text="姓名"
+          />
+      <TextView
+          android:id="@+id/tv1"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:gravity="center"
+
+          android:textColor="#f0f"
+          android:text="1"
+          />
+
+      <TextView
+          android:id="@+id/tv2"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:gravity="center"
+
+          android:textColor="#f0f"
+          android:text="2"
+          />
+
+      <TextView
+          android:id="@+id/tv3"
+          android:layout_weight="1"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:gravity="center"
+
+          android:textColor="#f0f"
+          android:text="3"
+          />
+      <TextView
+          android:id="@+id/tv4"
+          android:layout_weight="1"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:gravity="center"
+
+          android:textColor="#f0f"
+          android:text="4"
+          />
+      <TextView
+          android:layout_weight="1"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:gravity="center"
+
+          android:textColor="#f0f"
+          android:text="总分"
+          />
+   </LinearLayout>
+
+   <ListView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:id="@+id/list_view">
+
+   </ListView>
+
+
+
+</LinearLayout>
